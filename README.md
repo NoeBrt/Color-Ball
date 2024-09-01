@@ -10,24 +10,24 @@
 
 <h2 align="center">How To Run?</h2>
 
-<h3 align="center">On The Windows Build</h3>
+### On The Windows Build
 Run `colorBall.exe`
 
-<h3 align="center">On The WebGL Build</h3>
+### On The WebGL Build
 Open the `index.html` file in a web browser.
 
 <h2 align="center">Game Presentation</h2>
 
-<h3 align="center">Obstacles</h3>
+### Obstacles
 The game is composed of 3 obstacles: a circular one made by the arc asset, a horizontal one made by the triside asset, and the last one made with multiple circles following a spline trajectory.
 
-<h3 align="center">Levels</h3>
+### Levels
 All the levels are generated randomly.
 
-<h3 align="center">Game Loop</h3>
+### Game Loop
 The player has to jump until reaching the "Finish!" where they can change levels. If the player collides with an obstacle, they respawn at the initial position and have to redo the level. If the player is out of bounds, they die and respawn at the initial position.
 
-<h3 align="center">Collectibles</h3>
+### Collectibles
 Stars that increment a stars count and a color switcher that changes the player's color.
 
 <h2 align="center">Gameplay Choice</h2>
@@ -35,7 +35,7 @@ I wanted to make the game fast to launch and play, without an overwhelming UI. I
 
 <h2 align="center">Project Structure</h2>
 
-<h3 align="center">Scripts</h3>
+### Scripts
 
 - **UiManager.cs**  
   Manages the UI elements such as the finish text and button, and updates the collectible count.
@@ -56,16 +56,4 @@ I wanted to make the game fast to launch and play, without an overwhelming UI. I
   Generates the level by placing obstacles, collectibles, and the finish line.
 
 - **CameraBehaviour.cs**  
-  Controls the camera to follow the player and reset its position on player death.
-
-- **playerController.cs**  
-  Manages player movement, interactions with obstacles, collectibles, and triggers actions on finish or death.
-
-- **RotationObstacleBehaviour.cs**  
-  Controls the rotation of obstacles.
-
-- **horizontalObstacleBehaviour.cs**  
-  Manages the horizontal movement of obstacles.
-
-<h2 align="center">License</h2>
-This project uses the LiberationSans font, which is licensed under the SIL Open Font License, Version 1.1.
+  Controls the
