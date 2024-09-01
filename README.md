@@ -1,3 +1,5 @@
+THIS REPOSITORY IS A FORK OF (https://gitlab.com/hxrc_public/hxrc_codetask_2024.git)[https://gitlab.com/hxrc_public/hxrc_codetask_2024.git]
+
 <h1 align="center">Color Ball Coding Task</h1>
 
 <p align="center">
@@ -7,6 +9,8 @@
 <h2 align="center">Requirements</h2>
 
 - Windows or WebGL
+- Unity Package Universal Pipeline Renderer
+- Unity Package Splines
 
 <h2 align="center">How To Run?</h2>
 
