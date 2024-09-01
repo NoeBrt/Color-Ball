@@ -2,9 +2,6 @@ THIS REPOSITORY IS A FORK OF (https://gitlab.com/hxrc_public/hxrc_codetask_2024.
 
 <h1 align="center">Color Ball Coding Task</h1>
 
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/29d88578-356b-407a-9714-ba642ece652f" alt="Color Ball Coding Task">
-</p>
 
 <h2 align="center">Requirements</h2>
 
@@ -41,23 +38,23 @@ I wanted to make the game fast to launch and play, without an overwhelming UI. I
 
 ### Scripts
 
-- **UiManager.cs**  
+- **UiManager.cs**
   Manages the UI elements such as the finish text and button, and updates the collectible count.
 
-- **globalColor.cs**  
+- **globalColor.cs**
   Defines a set of colors used in the game.
 
-- **SceneManager.cs**  
+- **SceneManager.cs**
   Handles scene management, such as restarting the scene.
 
-- **PlayerAction.cs**  
+- **PlayerAction.cs**
   Defines player actions as static events.
 
-- **SoundManager.cs**  
+- **SoundManager.cs**
   Manages the sound effects for different player actions.
 
-- **LevelGenerator.cs**  
+- **LevelGenerator.cs**
   Generates the level by placing obstacles, collectibles, and the finish line.
 
-- **CameraBehaviour.cs**  
+- **CameraBehaviour.cs**
   Controls the

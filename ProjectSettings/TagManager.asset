@@ -4,10 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - ColorSwitcher
+  - Arc
+  - Point
+  - ColorSwitcherTre
   - Obstacle
-  - colorChange
-  - ColorChanger
   - Collectible
+  - ColorChanger
   layers:
   - Default
   - TransparentFX
