@@ -63,3 +63,7 @@ I wanted to make the game fast to launch and play, without an overwhelming UI. I
 
 - **CameraBehaviour.cs**
   Controls the
+
+<h2 align="center">What To Add More</h2>
+
+We can add more obstacle, maybe playing with verticality. Maybe change the jump orientation of the ball or add new game mechanics.
