@@ -1,4 +1,4 @@
-THIS REPOSITORY IS A FORK OF https://gitlab.com/hxrc_public/hxrc_codetask_2024.git[https://gitlab.com/hxrc_public/hxrc_codetask_2024.git]
+THIS REPOSITORY IS A FORK OF https://gitlab.com/hxrc_public/hxrc_codetask_2024.git
 
 <h1 align="center">Color Ball Coding Task</h1>
 
