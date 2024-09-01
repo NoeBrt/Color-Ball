@@ -1,8 +1,5 @@
 <h1 align="center">Color Ball Coding Task</h1>
 
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/29d88578-356b-407a-9714-ba642ece652f" alt="Color Ball Coding Task">
-</p>
 
 <h2 align="center">Requirements</h2>
 
