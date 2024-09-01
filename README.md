@@ -65,5 +65,7 @@ I wanted to make the game fast to launch and play, without an overwhelming UI. I
   Controls the
 
 <h2 align="center">What To Add More</h2>
+- What I could add is a completion percentage value in the UI so the player see his progression (but I forgor ☠️)
+- We can add more obstacle, maybe playing with verticality. Maybe change the jump orientation of the ball or add new game mechanics.
 
-We can add more obstacle, maybe playing with verticality. Maybe change the jump orientation of the ball or add new game mechanics.
+
