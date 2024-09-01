@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   distance: 6.79
+  offset: 0
   angle: 0
   elementPrefab: {fileID: 7964884796779131498, guid: 280398986f496874caf63de6c244b8ab, type: 3}
   scale: 0.2
