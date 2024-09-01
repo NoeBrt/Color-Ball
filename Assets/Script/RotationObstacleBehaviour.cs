@@ -5,16 +5,14 @@ using UnityEngine;
 public class RotationObstacleBehaviour : MonoBehaviour
 {
     // Start is called before the first frame update
-     [SerializeField] private float rotationSpeed = 1.0f;
-    void Start()
-    {
+    [SerializeField]
+    private float rotationSpeed = 1.0f;
 
-    }
+    void Start() { }
 
     // Update is called once per frame
     void Update()
     {
-    transform.Rotate(0,0,6.0f*rotationSpeed*Time.deltaTime);
-
+        transform.Rotate(0, 0, rotationSpeed * Time.deltaTime);
     }
 }

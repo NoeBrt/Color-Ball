@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5138727222333311188}
+  - component: {fileID: 8569404336894621576}
   m_Layer: 0
   m_Name: Obstacle2
   m_TagString: Untagged
@@ -31,3 +32,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8569404336894621576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7964884796779131498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71ec05222bd16be40a53cbf746b22fd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  distance: 6.79
+  angle: 0
+  elementPrefab: {fileID: 7964884796779131498, guid: 280398986f496874caf63de6c244b8ab, type: 3}
+  scale: 0.2
