@@ -3,8 +3,9 @@ THIS REPOSITORY IS A FORK OF (https://gitlab.com/hxrc_public/hxrc_codetask_2024.
 <h1 align="center">Color Ball Coding Task</h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3b9229ca-85dc-44e3-972c-0346328e00da" alt="Description of image">
+  <img src="https://github.com/user-attachments/assets/d673cf74-f759-4407-a255-923fd6e1626f" alt="Image description">
 </p>
+
 
 
 <h2 align="center">Requirements</h2>
