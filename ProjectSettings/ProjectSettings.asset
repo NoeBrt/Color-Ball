@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Academy2021AssignmentCopy
+  productName: HXR-ColorBall
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -46,8 +46,8 @@ PlayerSettings:
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
-  defaultScreenWidth: 540
-  defaultScreenHeight: 960
+  defaultScreenWidth: 270
+  defaultScreenHeight: 480
   defaultScreenWidthWeb: 540
   defaultScreenHeightWeb: 960
   m_StereoRenderingPath: 0
