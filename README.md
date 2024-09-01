@@ -4,6 +4,8 @@
 <h2 align="center">Requirements</h2>
 
 - Windows or WebGL
+- Package Unity Universal Pipeline
+- Package Splines
 
 <h2 align="center">How To Run?</h2>
 
