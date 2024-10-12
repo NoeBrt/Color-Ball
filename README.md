@@ -1,9 +1,8 @@
 <h1 align="center">Color Ball (an inspiration of Color Switch)</h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d673cf74-f759-4407-a255-923fd6e1626f" alt="Image description">
+![output](https://github.com/user-attachments/assets/c26b53c2-8a1c-4206-9915-a6ad561b80d7)
 </p>
-
 
 
 <h2 align="center">Requirements</h2>
