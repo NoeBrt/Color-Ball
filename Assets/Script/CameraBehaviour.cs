@@ -31,21 +31,20 @@ public class FollowPlayer : MonoBehaviour
 
     void LateUpdate()
     {
+        if (Input.GetMouseButtonDown(0) & isResetting)
+        {
+            isResetting = false;
+            transform.position = Vector3.Lerp(
+                transform.position,
+                new Vector3(player.position.x, player.position.y + 2, -10),
+                smoothSpeed * Time.deltaTime * 3.0f
+            );
+        }
         if (isResetting)
         {
             // Stop resetting if the player clicks
-
             ResetPosition();
-
-            // Check if the player is within the camera bounds and enable the player controller
-            if (IsPlayerWithinCameraBounds())
-            {
-                player.GetComponent<playerController>().enabled = true;
-                if (Input.GetMouseButtonDown(0))
-                {
-                    isResetting = false;
-                }
-            }
+            player.GetComponent<playerController>().enabled = true;
         }
         else if (player.position.y > transform.position.y)
         {
@@ -68,7 +67,7 @@ public class FollowPlayer : MonoBehaviour
         // Smoothly move the camera back to its initial position
         transform.position = Vector3.Lerp(
             transform.position,
-            initialPosition,
+            new Vector3(player.position.x, player.position.y + 2, -10),
             smoothSpeed * Time.deltaTime
         );
 
@@ -86,8 +85,7 @@ public class FollowPlayer : MonoBehaviour
         player.GetComponent<playerController>().enabled = false;
 
         // Wait for 1.5 seconds
-        yield return new WaitForSeconds(1.5f);
-
+        yield return new WaitForSeconds(1f);
         // Start resetting the camera position
         isResetting = true;
     }

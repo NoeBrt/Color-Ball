@@ -23,6 +23,11 @@ public class UiManager : MonoBehaviour
     [SerializeField]
     private float fadeWaitStartButton = 3.5f;
 
+    [SerializeField]
+    private TextMeshPro aptemptsText;
+
+    private int attempt = 1;
+
     void Start()
     {
         // Initialize the panels
@@ -56,6 +61,8 @@ public class UiManager : MonoBehaviour
 
     void OnDeathTriggered()
     {
+        attempt++;
+        aptemptsText.text = "Attempts: " + attempt;
         countText.text = "0";
     }
 
