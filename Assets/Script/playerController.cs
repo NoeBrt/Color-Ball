@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using static GameColors;
-using System.Linq;
+
 public class playerController : MonoBehaviour
 {
     [SerializeField]
@@ -127,7 +128,9 @@ public class playerController : MonoBehaviour
     void setRandomColor()
     {
         Color currentColor = spriteRenderer.color;
-        List<Color> availableColors = GameColors.Colors.Where(color => color != currentColor).ToList();
+        List<Color> availableColors = GameColors
+            .Colors.Where(color => color != currentColor)
+            .ToList();
         int randomIndex = Random.Range(0, availableColors.Count);
         spriteRenderer.color = availableColors[randomIndex];
     }
